@@ -26,7 +26,7 @@ app.use('/files', require('../routes/show.js'));
 app.use('/files/download', require('../routes/download.js'));
 
 //Node - Scheduler
-const { job } = require('../scheduler.js');
+require('../scheduler.js');
 
 
 // listen
